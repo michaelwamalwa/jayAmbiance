@@ -1,0 +1,180 @@
+.settings {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .settings h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .settings-section {
+    margin-top: 60px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .settings-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .setting {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .setting .label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .setting .value {
+    font-size: 16px;
+  }
+  
+  .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .add-contact {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  .add-contact input {
+    border: none;
+    border-bottom: 2px solid #ddd;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  .add-contact input:focus {
+    outline: none;
+    border-color: #222;
+  }
+  
+  .add-contact-button {
+    background-color: #ddd;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+  }
+  
+  .add-contact-button svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .email {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .no-contacts {
+    font-size: 16px;
+    font-style: italic;
+    color: #666;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: #444;
+  }
+  
+  @media (max-width: 768px) {
+    .settings h1 {
+      font-size: 28px;
+    }
+  
+    .settings-section h2 {
+      font-size: 22px;
+    }
+  
+    .setting .label {
+      font-size: 16px;
+    }
+  
+    .setting .value {
+      font-size: 14px;
+    }
+  
+    .add-contact {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-right: 0;
+    }
+  
+    .add-contact input {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  
+    .add-contact-button {
+      margin-left: auto;
+    }
+  
+    .contact {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .no-contacts {
+      font-size: 14px;
+    }
+  
+    .cta-button {
+      font-size: 14px;
+      padding: 8px 12px;
+      margin-top: 10px;
+    }
+  }

@@ -1,0 +1,82 @@
+.protocols-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .protocols-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .protocols-learn-more {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .protocols-learn-more-link {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #222;
+    transition: color 0.3s;
+  }
+  
+  .protocols-learn-more-link:hover {
+    color: #444;
+  }
+  
+  .protocols-learn-more-icon {
+    margin-left: 5px;
+  }
+  
+  .protocols-section {
+    margin-top: 60px;
+    width: 100%;
+    max-width: 600px;
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .protocols-section:hover .protocols-section-title {
+    color: #222;
+  }
+  
+  .protocols-section:hover .protocols-section-desc {
+    color: #444;
+  }
+  
+  .protocols-section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+    transition: color 0.3s;
+  }
+  
+  .protocols-section-desc {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+    transition: color 0.3s;
+  }

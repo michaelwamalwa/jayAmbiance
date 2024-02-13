@@ -1,0 +1,71 @@
+/* Navigation Bar */
+body{
+  background-image: url(../images/background.jpg);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  background-color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  height: 53px;
+}
+.logo-text{
+  color: purple !important;
+}
+.logo-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+.navbar-logo img {
+  max-height: 40px;
+  margin-right: 10px;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+
+/* Navigation Tabs */
+.navbar-tabs {
+  display: flex;
+}
+
+.navbar-tab {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 15px;
+  padding: 5px 0;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-tab.active {
+  color: #00b4cc; /* Change this to your desired active tab color */
+}
+
+/* Content Area */
+.content {
+  padding: 20px;
+}
+
+.tab-content {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
